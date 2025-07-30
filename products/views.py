@@ -27,6 +27,6 @@ class ItemView(APIView):
 
 
 class GetQntyAPI(APIView):
-    def get(self,request,product_id):
-        product = Item.objects.get(id=product_id)
-        return Response({"status":"success","qnty":product.qnty})
+    def get(self,request,id):
+        product = Item.objects.get(id=id)
+        return Response({"status":"success","qnty":product.id})
