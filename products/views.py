@@ -28,5 +28,8 @@ class ItemView(APIView):
 
 class GetQntyAPI(APIView):
     def get(self,request,id):
-        product = Item.objects.get(id=id)
-        return Response({"status":"success","qnty":product.id})
+        try:
+            product = Item.objects.get(id=id)
+            return Response({"status":"success","qnty":product.id})
+        except:
+            return Response({"status":"failed","message":"Item not found"})
