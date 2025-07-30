@@ -24,3 +24,9 @@ class ItemView(APIView):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+class GetQntyAPI(APIView):
+    def get(self,request,product_id):
+        product = Item.objects.get(id=product_id)
+        return Response({"status":"success","qnty":product.qnty})
