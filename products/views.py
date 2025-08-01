@@ -33,7 +33,3 @@ class GetQntyAPI(APIView):
             return Response({"status":"success","qnty":product.id})
         except:
             return Response({"status":"failed","message":"Item not found"})
-
-        
-
-print("hello")
