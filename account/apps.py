@@ -7,3 +7,5 @@ class AccountConfig(AppConfig):
 
 
 print("hey there")
+
+aq = "hello"
