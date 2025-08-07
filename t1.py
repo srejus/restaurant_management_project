@@ -1,1 +1,2 @@
-x = 0
+def sayHello(name):
+    return f"Hello {name}"
