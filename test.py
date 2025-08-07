@@ -7,4 +7,7 @@ def multi(a,b):
 
 
 def divide_2_nums(a,b):
-    return a/b
+    try:
+        return a/b
+    except:
+        return None
