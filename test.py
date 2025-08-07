@@ -5,7 +5,7 @@ def add_nums(a,b):
 def multi(a,b):
     return a*b
 
-
+c =s
 
 from .t1 import sayHello
 
