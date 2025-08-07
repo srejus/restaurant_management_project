@@ -7,4 +7,4 @@ def multi(a,b):
 
 
 def divide_2_nums(a,b):
-    retunn a/b
+    return a/b
