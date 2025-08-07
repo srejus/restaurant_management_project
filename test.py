@@ -8,5 +8,3 @@ def multi(a,b):
 
 def divide_2_nums(a,b):
     return a/b
-
-x = 0
