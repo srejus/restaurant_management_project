@@ -3,4 +3,4 @@ def add_nums(a,b):
 
 
 def multi(a,b):
-    retturn a*b
+    return a*b
