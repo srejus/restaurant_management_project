@@ -1,10 +1,2 @@
-x =10
-i = 0
-
-c = 101
-
-x = 00
-
-c =0
-
-x = 000
+def add_2_mums(a,b):
+    return a+b
