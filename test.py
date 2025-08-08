@@ -1,15 +1,10 @@
-def add_nums(a,b):
-    return a+b
+x =10
+i = 0
 
+c = 101
 
-def multi(a,b):
-    return a*b
+x = 00
 
-c =s
+c =0
 
-from .t1 import sayHello
-
-def say():
-    name = "ram"
-    res = sayHello(name)
-    return res
+x = 000
