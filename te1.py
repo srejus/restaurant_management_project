@@ -3,3 +3,5 @@ def sayHello(name):
 
 x = 0
 c = 0
+
+b = 9
